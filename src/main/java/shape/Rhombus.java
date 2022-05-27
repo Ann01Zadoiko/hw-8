@@ -2,7 +2,7 @@ package shape;
 
 public class Rhombus implements Shape{
     @Override
-    public String call() {
-        return "Rhombus!";
+    public void call() {
+        System.out.println("Rhombus!");
     }
 }

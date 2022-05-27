@@ -1,22 +1,21 @@
 package Main;
 
+import chart.Area;
 import chart.Chart;
 import chart.Line;
 import chart.Pie;
 import others.Comment;
 import others.OtherInst;
 import others.Pen;
+import others.StickyNote;
+import shape.Star;
+import smartArt.Cycle;
 
 public class Main {
     public static void main(String[] args) {
-        Chart line = new Line();
-        line.call();
-        Pie pie = new Pie();
-        pie.call();
-
-        OtherInst comment = new Comment();
-        System.out.println(comment.call());
-        Pen pen = new Pen();
-        System.out.println(pen.call());
+        new Area().call();
+        new StickyNote().call();
+        new Star().call();
+        new Cycle().call();
     }
 }

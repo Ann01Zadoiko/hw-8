@@ -2,7 +2,7 @@ package shape;
 
 public class Circle implements Shape{
     @Override
-    public String call() {
-        return "Circle!";
+    public void call() {
+        System.out.println("Circle!");
     }
 }

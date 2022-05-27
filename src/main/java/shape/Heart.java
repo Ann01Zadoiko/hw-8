@@ -2,7 +2,7 @@ package shape;
 
 public class Heart implements Shape{
     @Override
-    public String call() {
-        return "Heart!";
+    public void call() {
+        System.out.println("Heart!");
     }
 }
